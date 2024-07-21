@@ -1,5 +1,6 @@
 //Note:- javaScript is Dynamically typed language.
-// primitive datatype
+
+// Primitive datatype
 
 // 7 types : String, Number, Boolean, null, Undefiend, Symbol, BigInt.....
 
@@ -39,3 +40,31 @@ const MyFunction = function() {
     console.log(typeof arr);          // 'object'
     console.log(typeof MyObject);     // 'object'
     console.log(typeof MyFunction);   // 'function'
+
+
+//  ++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack Memory => Premitive type use stack memory, stack memory used only copyied value.
+
+let MyNickname = "Golu";
+
+let anothername=MyNickname; 
+anothername="Vishu";
+
+console.log(MyNickname);
+console.log(anothername);
+
+// Heap Memory  => Non-Premitive type used heap memory, heap memory used original value or Reference value.
+
+let userOne={
+    Name:"Vishu",
+    Age: 22,
+}
+
+let userTwo = userOne;
+
+userOne.Name="Golu";
+
+
+console.log(userOne.Name);
+console.log(userTwo.Name);
