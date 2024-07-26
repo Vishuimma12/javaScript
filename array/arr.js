@@ -54,6 +54,20 @@ const char2 = ["A","B","C","D"];
 
 //Sprade...
 const newArray =[...char1,...char2]; // it combine the both are in single array..(just like a glass sprade..) 
-console.log(newArray);
+console.log("Sprade array "+newArray);
 
+const anotherarr=[1,2,3,4,[4,5,6],[7,8,9,[10,11]]];
+const realAnarr = anotherarr.flat(2); //it gives the all array in single array, Infinity is a depth(its depth is 3) of the array
+console.log(realAnarr);
+
+//
+console.log(Array.isArray("Hitesh"));
+console.log(Array.from("Hitesh")); //form method is used for making an array
+console.log(Array.from({name:"Hitesh"})); //important topic..
+
+let score1 = 100;
+let score2 = 200;
+let score3 = 300;
+
+console.log(Array.of(score1,score2,score3)); // we can create value in to an array..
 
