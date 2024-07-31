@@ -129,3 +129,39 @@ console.log(Object.keys(tinderUser)); //IMP :-
 console.log(Object.values(tinderUser));//IMP:-
 console.log(Object.entries(tinderUser));//IMP:-
 console.log(tinderUser.hasOwnProperty(`LoogedIn`)); //IMP:-
+
+
+//++++ Tree Structuring ++++
+
+const course = {
+    courseName: 'JavaScript',
+    Prize:'500',
+    courseInst: 'Vishal Singh'
+}
+
+// course.courseInst
+const {courseInst}=course;
+console.log(courseInst);
+
+
+//used in react js....
+// const navbar = ({company})=>{
+
+// }
+
+// navbar (company='Vishal')
+
+//++++++++ Basic API +++++++++
+
+// {
+//     "name": 'Vishal',
+//     "courseNa":'Js in hindi',     //Json formate... as object
+//     "prize":'Free'
+// }
+
+// [
+//     {},
+//     {},                          //this is also Json as an array
+//     {},
+//     {}
+// ]
