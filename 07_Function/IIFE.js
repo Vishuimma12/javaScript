@@ -6,6 +6,12 @@
     console.log("DataBase Connected");
 })();
 
-( (name){     
-    console.log(`name: ${name} DataBase Connected`);
+//if we use two IIFE function we use the end of the function is compusory   ';' 
+
+( (name) => {     
+    console.log(`${name} DataBase Connected`);
 })('Vishal');
+
+//((name) => { ... })('Vishal');
+//   |                   |
+//  parameter         argument
