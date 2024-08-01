@@ -45,3 +45,4 @@ const two = function(num){ //This is also a funtion but we store a funtion in a 
     return num+2;
 }
 console.log(two(5));
+
