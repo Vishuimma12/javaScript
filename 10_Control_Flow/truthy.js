@@ -40,7 +40,7 @@ val1= null ?? 10 ?? 20;  //10 will assigned..
 console.log(val1);
 
 
-//Terniary Operator:-     conndition? true : false 
+//Terniary Operator:-     conndition ? true : false 
 
 const icePrice= 100;
 
